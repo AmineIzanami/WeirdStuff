@@ -36,7 +36,7 @@ def merge_image():
         if not my_file.exists():
             print(x)
             my_image = "\\".join([image_path, onlyfiles[x]])
-            if(x==76):
+            if(x==len(onlyfiles)):
              my_image1 = "\\".join([image_path, onlyfiles[0]])
             else:
              my_image1 = "\\".join([image_path, onlyfiles[x+1]])

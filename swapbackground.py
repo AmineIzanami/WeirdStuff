@@ -2,6 +2,8 @@ import os
 import ctypes
 from ctypes import wintypes
 import random
+
+
 def set_background():
     image_path = r"C:\Users\G603344\Desktop\personal\swapbackground\imagesDoubleScreen"
     from os import listdir
